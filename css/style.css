@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+}
+
+.logo {
+    background: black;
+    
+    display: flex;
+}
+
+#logo2 {
+    width: 15%;
+}
+
+#fundo {
+    background: linear-gradient(329.59deg, #7F210E 5%, #000000 100%) no-repeat;
+
+    text-align: center;
+    min-height: 100vh;
+
+    display: flex;
+    margin: 0;
+}
+
+.str1 {
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 30px;
+
+    text-align: center;
+    
+    padding: 110px 50px 90px 100px;
+}
+
+.str2 {
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 30px;
+
+    padding: 110px 50px 50px 130px;
+}
+
+#menu ul {
+    padding:5px 0px 0px 0px;
+    margin:0px;
+    background-color:#141414;
+    list-style:none;
+}
+
+#menu ul li {
+    display: inline; 
+}
+
+#menu ul li a {
+    padding: 2px 100px 0px 10px;
+    display: inline-block;
+
+    background-color:#141414;
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px #EDEDED;
+
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#menu ul li a:hover {
+    color: red;
+    border-bottom: 2px solid #EA0000;
+}
+
+.mid{
+    opacity: 0.85;
+    position: relative;
+    top:10px;
+    left: 5%;
+    width: 90%;
+    height: 1%;
+    background-color: #000000;
+    float: left;
+    border-radius: 20px;
+  }
+
+#notice1 {
+    width: 23%;
+    position: relative;
+    right: 13%;
+
+    margin: 30px 20px 0px 0px;
+}
+
+#notice2 {
+    width: 23%;
+    position: relative;
+    right: 13%;
+
+    margin: 10px 37px 0px 0px;
+}
+
+#notice3 {
+    width: 23%;
+    position: relative;
+    right: 13%;
+
+    margin: 10px 20px 0px 0px;
+}
+
+.noticia1 strong {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+
+    position: relative;
+    right: 10%;
+}
+
+.noticia2 strong {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+
+    position: relative;
+    right: 11%;
+}
+
+.noticia3 strong {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+
+    position: relative;
+    right: 10%;
+}
+
+.noticia1 hr {
+    color: red;
+    height: 3px;
+
+    background-color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    border-color: red;
+    border-radius: 10px;
+}
+
+.noticia2 hr {
+    color: red;
+    height: 3px;
+
+    background-color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    border-color: red;
+    border-radius: 10px;
+}
+
+#video1 {
+    position: relative;
+
+    width: 23%;
+    position: relative;
+    right: 13%;
+
+    margin: 30px 20px 0px 0px;
+}
